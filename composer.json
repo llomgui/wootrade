@@ -1,0 +1,37 @@
+{
+    "name": "llomgui/wootrade",
+    "type": "library",
+    "license": "MIT",
+    "description": "PHP SDK for Wootrade API",
+    "keywords": [
+        "wooorg",
+        "woonetwork",
+        "wootrade",
+        "api",
+        "sdk",
+        "php"
+    ],
+    "homepage": "https://github.com/llomgui/wootrade",
+    "support": {
+        "source": "https://github.com/llomgui/wootrade",
+        "issues": "https://github.com/llomgui/wootrade/issues"
+    },
+    "require": {
+      "php": ">=8.0.0",
+      "ext-json": "*",
+      "guzzlehttp/guzzle": "^6.0|^7.0",
+      "ratchet/pawl": "^0.4.1",
+      "monolog/monolog": "~1.0|~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "llomgui\\Wootrade\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+      "optimize-autoloader": true,
+      "secure-http": false
+    }
+}
